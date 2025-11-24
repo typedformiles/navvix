@@ -1,3 +1,4 @@
+<pre>
 +----------------------+
 |   TIM NORRIS-WILES   |
 +----------------------+
@@ -49,3 +50,4 @@ Other                   ███       █         ██        ██        
 Reach out to Tim via his LinkedIn
 
 https://www.linkedin.com/in/timothynorris/
+</pre>
