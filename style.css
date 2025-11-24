@@ -1,4 +1,6 @@
 .wrapper {
 	background: #ffffff;
-    min-width: 100%;
+    width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
 }
