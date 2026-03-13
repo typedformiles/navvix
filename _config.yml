@@ -1,0 +1,4 @@
+title: Navvix Limited
+url: "https://www.navvix.co"
+permalink: /blog/:title/
+markdown: kramdown
