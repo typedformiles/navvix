@@ -1,4 +1,7 @@
 title: Navvix Limited
 url: "https://www.navvix.co"
+description: "Tim Norris-Wiles - GTM operator in adtech, martech, data and AI. Currently scaling Neuralift AI."
 permalink: /blog/:title/
 markdown: kramdown
+plugins:
+  - jekyll-sitemap
