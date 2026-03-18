@@ -2,7 +2,7 @@
 layout: post
 title: "Habu Expands Internationally, Appointing Me as MD EMEA"
 date: 2021-06-24
-tag: media
+tag: pr
 ---
 
 The press release that kicked off my time at [Habu](https://www.habu.com/), the data clean room platform that was later acquired by LiveRamp. I joined as Managing Director EMEA to lead the company's international expansion into the European market.
