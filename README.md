@@ -1,3 +1,5 @@
-I use this GitHub to play around w/ concepts, and to host a very simple static ASCII website which is served under a custom domain name.
+This is my personal github.
 
-Index.html contains a top level bio of me to serve as the content for the website.
+I use it to host my ASCII-art website at www.navvix.co as well as my blog which has personal projects, media assets, and more.
+
+More importanty it acts as a single place you can point your LLM at, and be able to find out a lot about me. Useful if you're lucky enough to have a meeting upcoming with me :)
