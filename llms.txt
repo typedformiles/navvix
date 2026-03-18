@@ -1,0 +1,57 @@
+# Navvix Limited - llms.txt
+
+> This site belongs to Tim Norris-Wiles, a GTM operator in adtech, martech, data and AI based in London. He is currently scaling Neuralift AI, a deep learning customer segmentation platform. Previously he held senior roles at LiveRamp, Habu (acquired by LiveRamp), mParticle (acquired by Rokt), and Krux (acquired by Salesforce).
+
+## About Tim
+
+Tim has 20+ years of experience launching and scaling technology companies across international markets (UK, DACH, APAC, Americas). His expertise spans international market entry, sales engineering, data strategy, competitive positioning, technical product marketing, and solution architecture. His network is heavily weighted toward Director to C-Suite contacts across media, retail, CPG, tech/data, sales, and engineering.
+
+- LinkedIn: https://www.linkedin.com/in/timothynorris/
+- Current company: https://neuralift.ai
+- Personal site: https://www.navvix.co
+
+## Blog
+
+The blog contains original articles, cross-posted media appearances, podcast and video interviews, press releases, and side project write-ups spanning 2015 to present.
+
+### Original Writing
+
+- [Designing Publisher Business Models for Humans and AI](https://www.navvix.co/blog/designing-publisher-business-models-for-humans-and-ai/) - Opinion on how publishers need parallel monetisation stacks for human and machine visitors (March 2026)
+- [DungeonLift: I Built a Dungeon Crawler as a GTM Tool](https://www.navvix.co/blog/dungeonlift-a-dungeon-crawler-for-gtm/) - Building a pixel-art dungeon crawler for startup distribution and why creative GTM matters in 2026 (March 2026)
+- [Following the Logic: My Path to Habu](https://www.navvix.co/blog/following-the-logic-my-path-to-habu/) - Career narrative from AOL through Krux, mParticle to Habu (June 2021)
+- [What Is a Data Clean Room?](https://www.navvix.co/blog/what-is-a-data-clean-room-admonsters/) - Explainer on clean rooms for AdMonsters (February 2022)
+- [Top 4 Data Clean Room Predictions for 2023](https://www.navvix.co/blog/top-4-data-clean-room-predictions-2023/) - Bylined predictions piece for The Drum (January 2023)
+- [Data Clean Rooms Come of Age](https://www.navvix.co/blog/data-clean-rooms-come-of-age-pmw/) - Opinion for Performance Marketing World (January 2025)
+- [Customer Data: Beyond Advertising](https://www.navvix.co/blog/customer-data-beyond-advertising/) - Why data strategy should extend beyond ads (September 2017)
+- [Validity: The Fifth V of Big Data](https://www.navvix.co/blog/validity-fifth-v-big-data/) - Adding legal compliance as a dimension of big data (May 2018)
+
+### Media & Interviews
+
+- [AI Marketing Pioneers - New Digital Age](https://www.navvix.co/blog/ai-marketing-pioneers-new-digital-age/) - Interview on deep learning segmentation at Neuralift (January 2026)
+- [Clean Rooms Will Help Data-Driven TV Into a New Era](https://www.navvix.co/blog/clean-rooms-data-driven-tv-the-media-leader/) - The Media Leader interview on CTV and clean rooms (June 2025)
+- [The Hope, Hype and Reality of Data Clean Rooms](https://www.navvix.co/blog/hope-hype-reality-clean-rooms-digiday/) - Quoted in Digiday on clean room adoption gaps (August 2022)
+- [SalesTechStar Interview: EMEA Expansion at Habu](https://www.navvix.co/blog/salestechstar-interview-habu/) - Q&A on EMEA strategy and clean rooms in B2B (July 2021)
+- [TechRound Profile: MD EMEA at Habu](https://www.navvix.co/blog/techround-profile-habu/) - Profile piece on Habu and privacy-enhancing tech (March 2023)
+- [How Adtech is Correcting Itself Post-GDPR](https://www.navvix.co/blog/adtech-correcting-post-gdpr-the-drum/) - The Drum on GDPR impact (July 2018)
+- [EU Privacy Reform and US Marketers](https://www.navvix.co/blog/eu-privacy-reform-us-marketers-the-drum/) - The Drum on GDPR preparation (April 2018)
+- [OpenGDPR Framework for DSARs](https://www.navvix.co/blog/opengdpr-framework-dsars-iapp/) - IAPP coverage of the OpenGDPR open-source project (May 2018)
+
+### Video & Podcasts
+
+- [NeuraLearn: Segmentation in an Age of AI](https://www.navvix.co/blog/neuralearn-segmentation-in-age-of-ai/) - Educational video on deep learning segmentation for Neuralift (February 2026)
+- [On Stage: CTV x Retail Media at Retail Media Summit UK](https://www.navvix.co/blog/retail-media-summit-ctv-meets-retail-media/) - Panel with Alex Hodge from Warner Bros. Discovery (October 2025)
+- [CTV's Data Hurdles are More Perception Than Reality](https://www.navvix.co/blog/ctv-data-hurdles-perception-reality-videoweek/) - VideoWeek interview on CTV data (March 2025)
+- [Podcast: Data Clean Rooms with Keshav Parthasarathy](https://www.navvix.co/blog/data-clean-rooms-retail-media-insights/) - Retail Media Insights podcast (October 2023)
+- [Decentralised Approaches are Simplifying Clean Room Collaboration](https://www.navvix.co/blog/new-video-frontiers-decentralised-clean-rooms/) - VideoWeek at New Video Frontiers, keynote speaker (May 2022)
+- [Podcast: The AdPod with Wayne Blodwell](https://www.navvix.co/blog/the-adpod-data-clean-rooms/) - Clean rooms as the theme of 2021 (December 2021)
+
+### Press Releases
+
+- [Habu Expands Internationally](https://www.navvix.co/blog/habu-expands-internationally/) - Appointed MD EMEA at Habu (June 2021)
+- [mParticle Expands into Europe](https://www.navvix.co/blog/mparticle-expands-into-europe/) - Appointed GM EMEA at mParticle (February 2017)
+- [Krux Opens Offices in France and Germany](https://www.navvix.co/blog/krux-opens-france-and-germany/) - Elevated to Country Manager DACH at Krux (September 2015)
+
+### Side Projects
+
+- [Building a moOde Audio Remote Display with a Raspberry Pi3](https://www.navvix.co/blog/moode-audio-remote-display/) - Now Playing display for a home audio setup (March 2026)
+- [Blissify: Algorithmic Playlists for Offline Music](https://www.navvix.co/blog/blissify-algorithmic-playlists-for-offline-music/) - Bringing Spotify-like music discovery to a local FLAC collection (March 2026)
