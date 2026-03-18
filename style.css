@@ -117,12 +117,42 @@ a:focus-visible {
   box-shadow: 0 4px 16px rgba(15, 23, 42, 0.08);
 }
 
+.blog-card .card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
 .blog-card .post-date {
-  display: block;
   font-size: 0.8rem;
   color: #64748b;
   font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
-  margin-bottom: 0.5rem;
+}
+
+.badge {
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  padding: 0.2em 0.6em;
+  border-radius: 4px;
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+}
+
+.badge-project {
+  background: #dbeafe;
+  color: #1e40af;
+}
+
+.badge-media {
+  background: #fce7f3;
+  color: #9d174d;
+}
+
+.badge-opinion {
+  background: #fef3c7;
+  color: #92400e;
 }
 
 .blog-card h2 {

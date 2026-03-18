@@ -2,6 +2,7 @@
 layout: post
 title: "Blissify: Bringing Algorithmic Playlists to Offline Music Collections"
 date: 2026-03-09
+tag: project
 ---
 
 One thing I genuinely miss from streaming services like Spotify and Apple Music is the algorithmic music discovery. That moment where a track you've never heard before plays and you stop what you're doing to listen. I actually [wrote about how Spotify achieves this on LinkedIn](https://www.linkedin.com/pulse/how-spotify-knows-what-you-want-hear-music-analogies-norris-wiles-yuste/) a while back - the short version is that deep learning neural networks break each track into thousands of tiny time slices, capture the harmonic and timbral fingerprint of each, and then learn patterns in rhythm, texture, energy and mood without anyone defining them upfront. The result is incredibly accurate, seemingly serendipitous music discovery.

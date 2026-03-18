@@ -2,6 +2,7 @@
 layout: post
 title: "Building a moOde Audio Remote Display with a Raspberry Pi3"
 date: 2026-03-15
+tag: project
 ---
 
 I found an old Raspberry Pi3B in a drawer last week, and set about a little project aided by Claude Code to make a remote display for my home moOde Audio player.

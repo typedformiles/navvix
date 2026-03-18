@@ -2,6 +2,7 @@
 layout: post
 title: "Designing Publisher Business Models for Humans and AI"
 date: 2026-03-13
+tag: opinion
 ---
 
 There's a question every publisher needs to answer in 2026, and most are not yet asking it clearly enough. It is not "how do we survive AI?" as this framing is very passive and ultimately too vague to actually act on.

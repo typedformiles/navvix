@@ -9,7 +9,10 @@ permalink: /blog/
 <div class="blog-cards">
   {% for post in site.posts %}
   <a href="{{ post.url }}" class="blog-card">
-    <span class="post-date">{{ post.date | date: "%B %-d, %Y" }}</span>
+    <div class="card-header">
+      <span class="post-date">{{ post.date | date: "%B %-d, %Y" }}</span>
+      {% if post.tag %}<span class="badge badge-{{ post.tag }}">{{ post.tag }}</span>{% endif %}
+    </div>
     <h2>{{ post.title }}</h2>
     <p>{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
   </a>

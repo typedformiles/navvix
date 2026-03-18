@@ -2,6 +2,7 @@
 layout: post
 title: "DungeonLift: I Built a Dungeon Crawler as a GTM Tool"
 date: 2026-03-18
+tag: project
 ---
 
 I've been thinking for a while about how to make [Neuralift](https://neuralift.ai)'s value proposition more tangible and fun to engage with. We're a deep learning segmentation platform - not the easiest thing to make exciting in a cold outreach email. So I built a game instead.
