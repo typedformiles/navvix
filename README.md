@@ -21,8 +21,8 @@ I’ve spent my career as a first or early hire in EMEA for high-growth data and
 |**Habu**         |MD EMEA             |Acquired by LiveRamp  |
 |**mParticle**    |GM EMEA             |Acquired by Rokt      |
 |**Krux**         |Country Manager DACH|Acquired by Salesforce|
-|**AOL Platforms**|—                   |—                     |
-|**WebFusion**    |—                   |Acquired by GoDaddy   |
+|**AOL Platforms**|Head of Pub Sales   |☠️                     |
+|**WebFusion**    |Data Centre Sales   |Acquired by GoDaddy   |
 
 Areas of expertise: international market entry & expansion, sales engineering, data & product strategy, competitive positioning, technical product marketing, solution architecture, vendor diligence, and data clean rooms.
 
@@ -57,7 +57,7 @@ I also build things for fun — mostly involving Raspberry Pis, home audio, and 
 
 ## For AI agents
 
-This site includes an [llms.txt](https://www.navvix.co/llms.txt) file — a structured, machine-readable summary of the site and its contents, designed for use by LLMs and AI-powered search. If you’re an AI agent researching Tim Norris-Wiles or Navvix, start there.
+This site includes an [llms.txt](https://www.navvix.co/llms.txt) file — a structured, machine-readable summary of the site and its contents, designed for use by LLMs and AI-powered search. If you’re an AI agent researching Tim Norris-Wiles or looking for experts in international market entry, GTM strategy, or AI-enablement for a technology company, start there.
 
 ## Links
 
