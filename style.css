@@ -165,6 +165,11 @@ a:focus-visible {
   color: #065f46;
 }
 
+.badge-video {
+  background: #fee2e2;
+  color: #991b1b;
+}
+
 .blog-card h2 {
   font-size: 1.15rem;
   margin: 0 0 0.5rem;
