@@ -11,7 +11,7 @@ The underlying pattern is clear here... people now want AI agents that run for t
 
 But at the moment this is mostly a prosumer / developer pattern, and not a consumer one, which got me thinking about what happens next in the consumer context as all of this behaviour and growth trickles down to the mass-market.
 
-The next generation of mass-market hardware likely isn't going to ship with 64GB of RAM ($$$$) so that Debbie and Dave can run a 70B parameter model locally in their house. Most people don't want to manage their own inference compute. Consumers want stuff to just work, and they're happy for the thinking to happen somewhere else, as long as their stuff stays private and the experience is integrated into their lives and existing ecosystems.
+The next generation of mass-market hardware likely isn't going to ship with 64GB of RAM (not cheap) so that Debbie and Dave can run a 70B parameter model locally in their house. Most people don't want to manage their own inference compute. Consumers want stuff to just work, and they're happy for the thinking to happen somewhere else, as long as their stuff stays private and the experience is integrated into their lives and existing ecosystems.
 
 This is where Apple's apparently [low AI capital expenditure](https://sherwood.news/tech/apple-is-the-only-big-tech-company-whose-capex-declined-last-quarter/) starts looking less like a weakness and more like a strategy. While Google, Microsoft, and Meta pour billions into training foundation models and building inference infrastructure, Apple is watching. And if you know Apple, you know what comes next.
 
