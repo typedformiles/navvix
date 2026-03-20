@@ -1,3 +1,7 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
 :root {
   color: #0f172a;
   background: #f8fafc;
@@ -224,4 +228,124 @@ a:focus-visible {
 .post-content pre code {
   background: none;
   padding: 0;
+}
+
+/* Homepage / Terminal */
+.terminal {
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.terminal .term {
+  margin: 0 0 0.75em;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.terminal .ascii-art {
+  margin: 0.5em 0 1em;
+  line-height: 1.2;
+  font-size: 0.85rem;
+}
+
+.terminal .ascii-fallback {
+  display: none;
+  margin: 0 0 1em;
+  font-size: 1.3rem;
+  font-family: inherit;
+}
+
+.terminal .term-list {
+  margin: 0 0 1.5em;
+}
+
+.terminal .term-item {
+  padding: 0.15em 0;
+}
+
+.terminal .term-dim {
+  color: #64748b;
+}
+
+.terminal .term-rule {
+  border-top: 1px dashed #94a3b8;
+  margin: 0.5em 0;
+}
+
+.terminal .term-stats {
+  margin: 1.5em 0;
+}
+
+.terminal .term-stat {
+  display: flex;
+  gap: 0.5em;
+  padding: 0.15em 0;
+  flex-wrap: wrap;
+}
+
+.terminal .term-label {
+  color: #64748b;
+  white-space: nowrap;
+}
+
+.terminal .term-chart-scroll {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin: 1em 0;
+}
+
+.terminal .term-chart-scroll .ascii-art {
+  margin: 0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  body {
+    padding: 0.75rem;
+  }
+
+  main {
+    padding: 1.25rem;
+    border-radius: 8px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .blog-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .blog-card {
+    aspect-ratio: auto;
+    padding: 1.25rem;
+  }
+
+  .blog-card h2 {
+    font-size: 1rem;
+  }
+
+  .post-content {
+    font-size: 1rem;
+  }
+
+  .post-content pre {
+    font-size: 0.8rem;
+  }
+
+  nav a {
+    margin-right: 0.5rem;
+    font-size: 0.9rem;
+  }
+
+  .terminal .ascii-lg {
+    display: none;
+  }
+
+  .terminal .ascii-fallback {
+    display: block;
+  }
 }
