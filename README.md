@@ -8,7 +8,7 @@ This repo powers [www.navvix.co](https://www.navvix.co) — my personal site and
 
 ## Currently
 
-I’m scaling [Neuralift AI](https://neuralift.ai), a deep learning customer segmentation platform that rethinks how brands understand and activate their audiences. Neuralift works with leaders in streaming, sports, gaming and more across AI implementation, go-to-market strategy, and data/martech consulting.
+I’m scaling [Neuralift AI](https://neuralift.ai), a deep learning customer segmentation platform that rethinks how brands discover, understand and activate their audiences. Neuralift works with leaders in streaming, sports, gaming and more across AI implementation, go-to-market strategy, and data/martech consulting.
 
 Navvix is my consulting vehicle.
 
