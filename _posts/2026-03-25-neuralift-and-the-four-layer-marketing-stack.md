@@ -15,7 +15,7 @@ Wind the clock back 18 months or so and ML would probably have been a layer in i
 
 **Layer 2: Deep Learning and Segment Discovery**
 
-Deep learning and discovery have emerged as the new frontier on top of these 1st party data foundations, but they are fundamentally HARD things to do. As my CEO Jon recently wrote in a LinkedIn post:
+Deep learning and discovery have emerged as the new frontier on top of these 1st party data foundations, but they are fundamentally HARD things to do. As my CEO Jon recently wrote in a [LinkedIn post](https://www.linkedin.com/posts/jonathanmendez_a-shift-i-think-matters-a-lot-right-now-share-7442195635874963456-a-q4):
 
 > "Advantage now is not measurement. It is using customer data to discover hidden patterns, untapped opportunities, and strategic moves that are hard to see through reporting alone"
 
@@ -33,7 +33,7 @@ And finally the activation stack, which is changing. It used to be that you woul
 
 ![Tony Kipkemboi tweet on enterprise SaaS and agent-first tooling](/assets/images/tony-kipkemboi-tweet.png)
 
-Tony Kipkemboi's recent tweet nails this. Enterprise customers care most about being able to give their agentic layer access to their data in the most efficient and comprehensive way, and less so about your harness. Build better MCPs, CLIs, APIs. New startups will start popping up that are agent-first and your customers will eventually switch if you don't innovate.
+[Tony Kipkemboi's recent tweet](https://x.com/tonykipkemboi/status/2035051776110375405) nails this. Enterprise customers care most about being able to give their agentic layer access to their data in the most efficient and comprehensive way, and less so about your harness. Build better MCPs, CLIs, APIs. New startups will start popping up that are agent-first and your customers will eventually switch if you don't innovate.
 
 **Feeding the machine**
 
