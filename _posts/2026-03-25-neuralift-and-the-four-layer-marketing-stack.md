@@ -33,7 +33,7 @@ And finally the activation stack, which is changing. It used to be that you woul
 
 ![Tony Kipkemboi tweet on enterprise SaaS and agent-first tooling](/assets/images/tony-kipkemboi-tweet.png)
 
-Tony Kipkemboi's recent tweet nails this. Enterprise customers don't really care about your harness or agents that much. What they REALLY care about is being able to give their agents access to their data in the most efficient and comprehensive way. Build better MCPs, CLIs, APIs. New startups will start popping up that are agent-first and your customers will eventually switch if you don't innovate.
+Tony Kipkemboi's recent tweet nails this. Enterprise customers care most about being able to give their agentic layer access to their data in the most efficient and comprehensive way, and less so about your harness. Build better MCPs, CLIs, APIs. New startups will start popping up that are agent-first and your customers will eventually switch if you don't innovate.
 
 **Feeding the machine**
 
