@@ -11,7 +11,7 @@ If you're not familiar with [moOde](https://moodeaudio.org/) I recommend checkin
 
 I usually control moOde using a mobile or tablet via the local hostname, but wanted to have some "Now Playing" art available and thought the Pi3 with a 4" screen would be perfect for this.
 
-<img src="/assets/images/moode-display.jpg" alt="moOde remote display showing Now Playing on a Raspberry Pi with 4 inch screen" style="max-width: 400px;">
+![moOde remote display showing Now Playing on a Raspberry Pi with 4 inch screen](/assets/images/moode-display.jpg)
 
 It wasn't all plain sailing getting this setup, I learned pretty quickly that nuances in PiOS operating system version cause a lot of issues when dealing with older boards like this, but we got there in the end! The github Repo is public [here](https://github.com/typedformiles/moode_remote) if you're inclined to do something similar.
 
