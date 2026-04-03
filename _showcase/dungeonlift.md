@@ -10,6 +10,6 @@ order: 1
 
 DungeonLift is a browser-based dungeon crawler game built to make Go-To-Market enablement genuinely engaging. Instead of another slide deck or quiz, your sales team navigates procedurally generated dungeons where every challenge is a real GTM scenario.
 
-The game was built with significant help from Claude (Opus 4.6), and the process of building it highlighted both the incredible potential and the real challenges of using AI to ship a product from scratch.
+The game was built with help from Claude (Opus 4.6), and the process of building it highlighted both the incredible potential and the real challenges of using AI to ship a product from scratch.
 
 [Read the full blog post](/blog/dungeonlift-a-dungeon-crawler-for-gtm/) for the backstory and lessons learned.
