@@ -1,0 +1,30 @@
+---
+layout: default
+title: Showcase
+permalink: /showcase/
+---
+<h1>Showcase</h1>
+
+{% if site.showcase.size > 0 %}
+<div class="showcase-grid">
+  {% assign sorted = site.showcase | sort: "order" %}
+  {% for item in sorted %}
+  <a href="{{ item.url }}" class="showcase-card">
+    {% if item.image %}
+    <div class="showcase-card-image">
+      <img src="{{ item.image }}" alt="{{ item.title }}">
+    </div>
+    {% endif %}
+    <div class="showcase-card-body">
+      <div class="card-header">
+        {% if item.tag %}<span class="badge badge-{{ item.tag }}">{{ item.tag }}</span>{% endif %}
+      </div>
+      <h2>{{ item.title }}</h2>
+      <p>{{ item.description }}</p>
+    </div>
+  </a>
+  {% endfor %}
+</div>
+{% else %}
+<p>Nothing here yet. Check back soon.</p>
+{% endif %}

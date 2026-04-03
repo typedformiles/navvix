@@ -5,3 +5,8 @@ permalink: /blog/:title/
 markdown: kramdown
 plugins:
   - jekyll-sitemap
+
+collections:
+  showcase:
+    output: true
+    permalink: /showcase/:title/
