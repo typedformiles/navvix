@@ -4,7 +4,7 @@ title: "Is It A Derby?"
 description: "Pick two English football clubs and get a scored verdict on whether it's a proper derby. Covers 151 clubs across 6 tiers."
 image: /assets/images/is-it-a-derby.png
 tag: project
-external_url: https://typedformiles.github.io/isitaderby/
+external_url: https://isitaderby.co.uk
 order: 2
 ---
 
@@ -16,4 +16,4 @@ Features include an interactive map showing both grounds, club colour badges, 90
 
 Fully static, no backend, vanilla HTML/CSS/JS. Hosted on GitHub Pages.
 
-[Try it live](https://typedformiles.github.io/isitaderby/) or check out the [source code](https://github.com/typedformiles/isitaderby).
+[Try it live](https://isitaderby.co.uk).
