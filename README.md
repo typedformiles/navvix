@@ -16,13 +16,13 @@ Navvix is my consulting vehicle.
 
 I’ve spent my career as a first or early hire in EMEA for high-growth data and adtech companies, consistently building international operations from scratch:
 
-|Company          |Role                |Outcome               |
-|-----------------|--------------------|----------------------|
-|**Habu**         |MD EMEA             |Acquired by LiveRamp  |
-|**mParticle**    |GM EMEA             |Acquired by Rokt      |
-|**Krux**         |Country Manager DACH|Acquired by Salesforce|
-|**AOL Platforms**|Head of Pub Sales   |☠️                     |
-|**WebFusion**    |Data Centre Sales   |Acquired by GoDaddy   |
+|Company          |Role                |Field                                    |Outcome               |
+|-----------------|--------------------|------------------------------------------|-----------------------|
+|**Habu**         |MD EMEA             |Data Clean Rooms, Privtech, Adtech, SaaS  |Acquired by LiveRamp  |
+|**mParticle**    |GM EMEA             |CDP, Martech, Customer Data, SaaS         |Acquired by Rokt      |
+|**Krux**         |Country Manager DACH|DMP, Adtech, Data Management, SaaS        |Acquired by Salesforce|
+|**AOL Platforms**|Head of Pub Sales   |Adtech, Programmatic, Ad Serving          |☠️                     |
+|**WebFusion**    |Data Centre Sales   |Hosting, Infrastructure, Data Centres     |Acquired by GoDaddy   |
 
 Areas of expertise: international market entry & expansion, sales engineering, data & product strategy, competitive positioning, technical product marketing, solution architecture, vendor diligence, and data clean rooms.
 

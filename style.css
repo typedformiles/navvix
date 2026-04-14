@@ -375,6 +375,27 @@ a:focus-visible {
   color: #64748b;
 }
 
+.terminal .term-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35em;
+  margin: 0.25em 0 0.5em 1.1em;
+}
+
+.terminal .term-tag {
+  font-size: 0.7rem;
+  color: #408A71;
+  border: 1px dashed #408A71;
+  padding: 0.1em 0.5em;
+  border-radius: 2px;
+  white-space: nowrap;
+}
+
+.terminal .term-tag-highlight {
+  color: #7c3aed;
+  border-color: #7c3aed;
+}
+
 .terminal .term-rule {
   border-top: 1px dashed #94a3b8;
   margin: 0.5em 0;
