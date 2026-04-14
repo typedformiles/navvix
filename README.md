@@ -16,13 +16,22 @@ Navvix is my consulting vehicle.
 
 I’ve spent my career as a first or early hire in EMEA for high-growth data and adtech companies, consistently building international operations from scratch:
 
-|Company          |Role                |Field                                    |Outcome               |
-|-----------------|--------------------|------------------------------------------|-----------------------|
-|**Habu**         |MD EMEA             |Data Clean Rooms, Privtech, Adtech, SaaS  |Acquired by LiveRamp  |
-|**mParticle**    |GM EMEA             |CDP, Martech, Customer Data, SaaS         |Acquired by Rokt      |
-|**Krux**         |Country Manager DACH|DMP, Adtech, Data Management, SaaS        |Acquired by Salesforce|
-|**AOL Platforms**|Head of Pub Sales   |Adtech, Programmatic, Ad Serving          |☠️                     |
-|**WebFusion**    |Data Centre Sales   |Hosting, Infrastructure, Data Centres     |Acquired by GoDaddy   |
+|Company          |Role                          |Field                                    |Outcome               |
+|-----------------|------------------------------|------------------------------------------|-----------------------|
+|**Habu**         |Managing Director, CRO (Global)|Data Clean Rooms, Privtech, Adtech, SaaS |Acquired by LiveRamp  |
+|**mParticle**    |VP Sales, GM (EMEA)            |CDP, Martech, Customer Data, SaaS        |Acquired by Rokt      |
+|**Krux**         |Country Manager (UK, DACH)     |DMP, Adtech, Data Management, SaaS       |Acquired by Salesforce|
+|**AOL Platforms**|Head of Pub Sales (UK/IRE)     |Adtech, Programmatic, Ad Serving         |☠️                     |
+|**WebFusion**    |Data Centre Sales (UK/IRE)     |Hosting, Infrastructure, Data Centres    |Acquired by GoDaddy   |
+
+### Consulting
+
+|Client              |Field                                          |
+|---------------------|-----------------------------------------------|
+|**Clarisights**      |GTM, BI, Analytics, EU Expansion               |
+|**QuickFrame**       |GTM, Video Production, Creative, Adtech, EU Expansion|
+|**ArcaBlanca**       |Consulting, CDP, Data Strategy, B2B            |
+|**AppliScale.io**    |Advisory, Outsourcing, Adtech, Development     |
 
 Areas of expertise: international market entry & expansion, sales engineering, data & product strategy, competitive positioning, technical product marketing, solution architecture, vendor diligence, and data clean rooms.
 
