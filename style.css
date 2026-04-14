@@ -396,6 +396,11 @@ a:focus-visible {
   border-color: #7c3aed;
 }
 
+.terminal .term-tag-consulting {
+  color: #c2410c;
+  border-color: #c2410c;
+}
+
 .terminal .term-rule {
   border-top: 1px dashed #94a3b8;
   margin: 0.5em 0;
