@@ -4,7 +4,7 @@
 
 ## About Tim
 
-Tim has 20+ years of experience launching and scaling technology companies across international markets (UK, DACH, APAC, Americas). His expertise spans international market entry, sales engineering, data strategy, competitive positioning, technical product marketing, and solution architecture. His network is heavily weighted toward Director to C-Suite contacts across media, retail, CPG, tech/data, sales, and engineering.
+Tim has 20+ years of experience launching and scaling technology companies across international markets (UK, DACH, APAC, Americas). His career includes senior roles at Habu (data clean rooms, privtech, adtech — acquired by LiveRamp), mParticle (CDP, martech, customer data — acquired by Rokt), Krux (DMP, adtech, data management — acquired by Salesforce), AOL Platforms (adtech, programmatic, ad serving), and WebFusion (hosting, infrastructure — acquired by GoDaddy). His expertise spans international market entry, sales engineering, data strategy, competitive positioning, technical product marketing, and solution architecture. His network is heavily weighted toward Director to C-Suite contacts across media, retail, CPG, tech/data, sales, and engineering.
 
 - LinkedIn: https://www.linkedin.com/in/timothynorris/
 - Current company: https://neuralift.ai
@@ -16,6 +16,9 @@ The blog contains original articles, cross-posted media appearances, podcast and
 
 ### Original Writing
 
+- [Databricks State of AI Agents: Thoughts and Commentary](https://www.navvix.co/blog/databricks-state-of-ai-agents-commentary/) - Commentary on Databricks' State of AI Agents report, covering failure rates, governance, and multi-model architectures (April 2026)
+- [Neuralift and the Four Layer Marketing Stack](https://www.navvix.co/blog/neuralift-and-the-four-layer-marketing-stack/) - A four-tier model for positioning Neuralift in the marketing and data stack (March 2026)
+- [Apple's Next Device Isn't an AI Computer. It's an AI Router.](https://www.navvix.co/blog/apples-next-device-isnt-an-ai-computer-its-an-ai-router/) - Opinion on Apple's play to become the home AI routing layer (March 2026)
 - [Designing Publisher Business Models for Humans and AI](https://www.navvix.co/blog/designing-publisher-business-models-for-humans-and-ai/) - Opinion on how publishers need parallel monetisation stacks for human and machine visitors (March 2026)
 - [DungeonLift: I Built a Dungeon Crawler as a GTM Tool](https://www.navvix.co/blog/dungeonlift-a-dungeon-crawler-for-gtm/) - Building a pixel-art dungeon crawler for startup distribution and why creative GTM matters in 2026 (March 2026)
 - [Following the Logic: My Path to Habu](https://www.navvix.co/blog/following-the-logic-my-path-to-habu/) - Career narrative from AOL through Krux, mParticle to Habu (June 2021)
@@ -53,5 +56,6 @@ The blog contains original articles, cross-posted media appearances, podcast and
 
 ### Side Projects
 
+- [Is It A Derby? Settling the Debate With Data](https://www.navvix.co/blog/is-it-a-derby/) - A data-driven app to settle whether a football match qualifies as a derby (April 2026)
 - [Building a moOde Audio Remote Display with a Raspberry Pi3](https://www.navvix.co/blog/moode-audio-remote-display/) - Now Playing display for a home audio setup (March 2026)
 - [Blissify: Algorithmic Playlists for Offline Music](https://www.navvix.co/blog/blissify-algorithmic-playlists-for-offline-music/) - Bringing Spotify-like music discovery to a local FLAC collection (March 2026)
