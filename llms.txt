@@ -16,6 +16,7 @@ The blog contains original articles, cross-posted media appearances, podcast and
 
 ### Original Writing
 
+- [Lizzy 7B: The UK Just Got Its First State-of-the-Art Sovereign LLM](https://www.navvix.co/blog/lizzy-7b-uks-first-sovereign-llm/) - Coverage from the Flower Labs AI Summit 2026 on the UK's first sovereign LLM, including benchmarks, SuperGrid platform analysis, and Flower's federated learning journey (April 2026)
 - [Databricks State of AI Agents: Thoughts and Commentary](https://www.navvix.co/blog/databricks-state-of-ai-agents-commentary/) - Commentary on Databricks' State of AI Agents report, covering failure rates, governance, and multi-model architectures (April 2026)
 - [Neuralift and the Four Layer Marketing Stack](https://www.navvix.co/blog/neuralift-and-the-four-layer-marketing-stack/) - A four-tier model for positioning Neuralift in the marketing and data stack (March 2026)
 - [Apple's Next Device Isn't an AI Computer. It's an AI Router.](https://www.navvix.co/blog/apples-next-device-isnt-an-ai-computer-its-an-ai-router/) - Opinion on Apple's play to become the home AI routing layer (March 2026)
