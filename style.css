@@ -175,6 +175,18 @@ a:focus-visible {
   color: #c2410c;
 }
 
+.era-tag {
+  font-size: 0.7rem;
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+  color: #408A71;
+  border: 1px dashed #408A71;
+  padding: 0.1em 0.5em;
+  border-radius: 2px;
+  white-space: nowrap;
+  vertical-align: middle;
+  margin-left: 0.4em;
+}
+
 .blog-card h2 {
   font-size: 1.1rem;
   font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
