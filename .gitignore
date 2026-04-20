@@ -1,0 +1,16 @@
+# macOS
+.DS_Store
+
+# Jekyll build output
+_site/
+.jekyll-cache/
+.jekyll-metadata
+
+# Local Claude config
+.claude/
+
+# Local draft posts (not yet ready to publish)
+_posts/drafts/
+
+# LinkedIn-only / off-blog assets
+assets/images/selfie.jpg
