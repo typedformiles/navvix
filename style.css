@@ -108,6 +108,13 @@ a:hover{ text-decoration: underline; text-underline-offset: 3px; }
   position: absolute; inset: 3px;
   background: var(--paper);
 }
+.site-head .logo .by{
+  color: var(--ink-3);
+  font-weight: 500;
+  padding-left: 10px;
+  margin-left: 4px;
+  border-left: 1px dashed var(--rule);
+}
 .site-head .nav-right{
   display: flex; align-items: baseline; gap: 22px;
 }
