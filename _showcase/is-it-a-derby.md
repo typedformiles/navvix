@@ -2,7 +2,7 @@
 layout: showcase-item
 title: "Is It A Derby?"
 description: "Pick two English football clubs and get a scored verdict on whether it's a proper derby. Covers 151 clubs across 6 tiers."
-image: /assets/images/is-it-a-derby.png
+image: /assets/images/iiad_Screen.png
 tag: project
 external_url: https://isitaderby.co.uk
 order: 2
