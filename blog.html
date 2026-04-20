@@ -1,23 +1,82 @@
 ---
 layout: default
 title: Blog
+description: "Writing, media and the occasional side project. Tim Norris-Wiles on adtech, martech, data clean rooms, CDPs, and AI."
 permalink: /blog/
 ---
-<h1>Blog</h1>
+<div class="blog-head">
+  <div>
+    <div class="meta-label">Blog</div>
+    <h1 class="display" style="margin-top:8px;margin-bottom:0;">Writing, media &amp; the occasional side project.</h1>
+  </div>
+  <div class="total" id="blog-total">showing {{ site.posts.size }} of {{ site.posts.size }} &middot; 2015 &ndash; present</div>
+</div>
 
-{% if site.posts.size > 0 %}
-<div class="blog-cards">
-  {% for post in site.posts %}
-  <a href="{{ post.url }}" class="blog-card">
-    <div class="card-header">
-      <span class="post-date">{{ post.date | date: "%B %-d, %Y" }}</span>
-      {% if post.tag %}<span class="badge badge-{{ post.tag }}">{{ post.tag }}</span>{% endif %}
-    </div>
-    <h2>{{ post.title }}</h2>
-    <p>{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
-  </a>
+<div class="filters" id="blog-filters">
+  <button type="button" class="filter-btn active" data-filter="all">All <span class="count">{{ site.posts.size }}</span></button>
+  {% assign tags = "opinion,media,podcast,video,project,pr" | split: "," %}
+  {% for t in tags %}
+    {% assign tagged = site.posts | where: "tag", t %}
+    <button type="button" class="filter-btn" data-filter="{{ t }}">{{ t | capitalize }} <span class="count">{{ tagged.size }}</span></button>
   {% endfor %}
 </div>
-{% else %}
-<p>No posts yet. Check back soon.</p>
-{% endif %}
+
+<ul class="post-list" id="blog-list">
+  {% assign grouped = site.posts | group_by_exp: "p", "p.date | date: '%Y'" %}
+  {% for group in grouped %}
+    <li class="year-break" data-year="{{ group.name }}">{{ group.name }}</li>
+    {% for post in group.items %}
+      <li data-tag="{{ post.tag }}">
+        <div class="d">{{ post.date | date: "%b %-d, %Y" }}</div>
+        <div class="t">
+          <a href="{{ post.url }}">{{ post.title }}</a>
+          {% if post.description %}<span class="sub">{{ post.description }}</span>{% endif %}
+        </div>
+        <div>{% if post.tag %}<span class="tag {{ post.tag }}">{{ post.tag }}</span>{% endif %}</div>
+      </li>
+    {% endfor %}
+  {% endfor %}
+</ul>
+
+<script>
+(function(){
+  var list = document.getElementById('blog-list');
+  var filters = document.getElementById('blog-filters');
+  var total = document.getElementById('blog-total');
+  if (!list || !filters) return;
+
+  var items = Array.prototype.slice.call(list.querySelectorAll('li:not(.year-break)'));
+  var years = Array.prototype.slice.call(list.querySelectorAll('li.year-break'));
+  var totalCount = items.length;
+
+  filters.addEventListener('click', function(e){
+    var btn = e.target.closest('.filter-btn');
+    if (!btn) return;
+    var f = btn.dataset.filter;
+
+    var btns = filters.querySelectorAll('.filter-btn');
+    for (var i = 0; i < btns.length; i++){
+      btns[i].classList.toggle('active', btns[i] === btn);
+    }
+
+    var shown = 0;
+    items.forEach(function(li){
+      var match = (f === 'all') || (li.getAttribute('data-tag') === f);
+      li.style.display = match ? '' : 'none';
+      if (match) shown++;
+    });
+
+    years.forEach(function(yb){
+      var next = yb.nextElementSibling;
+      var any = false;
+      while (next && !next.classList.contains('year-break')){
+        if (next.tagName === 'LI' && next.style.display !== 'none'){ any = true; break; }
+        next = next.nextElementSibling;
+      }
+      yb.style.display = any ? '' : 'none';
+    });
+
+    total.textContent = 'showing ' + shown + ' of ' + totalCount + ' \u00b7 2015 \u2013 present';
+  });
+})();
+</script>

@@ -1,19 +1,28 @@
 ---
 layout: default
 ---
-<article class="showcase-detail">
-  <h1>{{ page.title }}</h1>
-  <p class="showcase-meta">
-    {% if page.tag %}<span class="badge badge-{{ page.tag }}">{{ page.tag }}</span>{% endif %}
-    {% if page.external_url %}<a href="{{ page.external_url }}" class="showcase-link">View project &rarr;</a>{% endif %}
-  </p>
+<article class="sc-detail">
+  <nav class="post-nav"><a href="/showcase/">&larr; all projects</a></nav>
+
+  <div class="meta-label">Project</div>
+  <h1 class="display">{{ page.title }}</h1>
+
+  <div class="sc-meta">
+    {% if page.tag %}<span class="tag {{ page.tag }}">{{ page.tag }}</span><span>&middot;</span>{% endif %}
+    {% if page.external_url %}<a href="{{ page.external_url }}">{{ page.external_url | remove: "https://" | remove: "http://" }} &rarr;</a>{% endif %}
+  </div>
+
   {% if page.image %}
-  <div class="showcase-hero">
-    <img src="{{ page.image }}" alt="{{ page.title }}">
-  </div>
+    <div class="sc-hero-img"><img src="{{ page.image }}" alt="{{ page.title }}"></div>
+  {% else %}
+    <div class="sc-hero-placeholder"><span>{{ page.title | upcase }}</span></div>
   {% endif %}
-  <div class="post-content">
+
+  <article class="prose">
     {{ content }}
+  </article>
+
+  <div class="post-end">
+    <a href="/showcase/">&larr; all projects</a>
   </div>
-  <p><a href="/showcase/">&larr; Back to showcase</a></p>
 </article>

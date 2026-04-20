@@ -1,11 +1,41 @@
 ---
 layout: default
 ---
-<article class="post">
-  <h1>{{ page.title }}</h1>
-  <p class="post-date">{{ page.date | date: "%B %-d, %Y" }}{% if page.tag %} <span class="badge badge-{{ page.tag }}">{{ page.tag }}</span>{% endif %}</p>
-  <div class="post-content">
+<div class="post-shell">
+  <nav class="post-nav"><a href="/blog/">&larr; all posts</a></nav>
+
+  <header class="post-hero">
+    <div class="meta">
+      <span>{{ page.date | date: "%B %-d, %Y" }}</span>
+      <span class="dot">&middot;</span>
+      {% if page.tag %}<span class="tag {{ page.tag }}">{{ page.tag }}</span><span class="dot">&middot;</span>{% endif %}
+      <span>~{{ content | number_of_words | divided_by: 220 | plus: 1 }} min read</span>
+    </div>
+    <h1>{{ page.title }}</h1>
+    {% if page.description %}<p class="dek">{{ page.description }}</p>{% endif %}
+  </header>
+
+  <article class="prose">
     {{ content }}
+  </article>
+
+  {% if page.related_posts and page.related_posts.size > 0 %}
+  <div class="related">
+    <div class="section-label">related</div>
+    <ul class="post-list">
+      {% for r in page.related_posts limit:2 %}
+      <li>
+        <div class="d">{{ r.date | date: "%b %-d, %Y" }}</div>
+        <div class="t"><a href="{{ r.url }}">{{ r.title }}</a></div>
+        <div>{% if r.tag %}<span class="tag {{ r.tag }}">{{ r.tag }}</span>{% endif %}</div>
+      </li>
+      {% endfor %}
+    </ul>
   </div>
-  <p><a href="/blog/">&larr; Back to all posts</a></p>
-</article>
+  {% endif %}
+
+  <div class="post-end">
+    <a href="/blog/">&larr; all posts</a>
+    <span>share on <a href="https://www.linkedin.com/sharing/share-offsite/?url={{ page.url | absolute_url | url_encode }}">linkedin</a></span>
+  </div>
+</div>

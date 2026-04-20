@@ -1,27 +1,28 @@
 ---
 layout: default
 title: Showcase
+description: "Side projects, experiments and weekend builds. Raspberry Pis, home audio, creative coding and a couple of accidental products."
 permalink: /showcase/
 ---
-<h1>Showcase</h1>
+<div class="meta-label">Showcase</div>
+<h1 class="display" style="margin-top:8px;">Side projects, experiments, and the odd weekend build.</h1>
+<p class="lead" style="margin-top:10px;">Things I've made outside of work, mostly involving Raspberry Pis, home audio, and creative coding... plus one or two that accidentally turned into real products.</p>
 
 {% if site.showcase.size > 0 %}
 <div class="showcase-grid">
   {% assign sorted = site.showcase | sort: "order" %}
   {% for item in sorted %}
-  <a href="{{ item.url }}" class="showcase-card">
-    {% if item.image %}
-    <div class="showcase-card-image">
-      <img src="{{ item.image }}" alt="{{ item.title }}">
+  <a class="sc-card" href="{{ item.url }}">
+    <div class="img">
+      {% if item.image %}
+        <img src="{{ item.image }}" alt="{{ item.title }}">
+      {% else %}
+        <span class="label">{{ item.title | upcase }}</span>
+      {% endif %}
     </div>
-    {% endif %}
-    <div class="showcase-card-body">
-      <div class="card-header">
-        {% if item.tag %}<span class="badge badge-{{ item.tag }}">{{ item.tag }}</span>{% endif %}
-      </div>
-      <h2>{{ item.title }}</h2>
-      <p>{{ item.description }}</p>
-    </div>
+    {% if item.tag %}<div class="row"><span class="tag {{ item.tag }}">{{ item.tag }}</span></div>{% endif %}
+    <h3>{{ item.title }}</h3>
+    <p class="desc">{{ item.description }}</p>
   </a>
   {% endfor %}
 </div>

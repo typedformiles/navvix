@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,19 +11,65 @@
   <meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}">
   <link rel="canonical" href="{{ page.url | absolute_url }}">
   <link rel="stylesheet" href="/style.css">
+  <script>
+    (function(){
+      try {
+        var t = localStorage.getItem('navvix-theme');
+        if (t === 'dark' || t === 'light') document.documentElement.dataset.theme = t;
+      } catch(e){}
+    })();
+  </script>
 </head>
 <body>
-  <div class="wrapper">
-    <nav>
-      <a href="/">[ Home ]</a>
-      <a href="/about/">[ About ]</a>
-      <a href="/blog/">[ Blog ]</a>
-      <a href="/showcase/">[ Showcase ]</a>
-    </nav>
+  {% assign url = page.url %}
+  {% assign nav_section = "home" %}
+  {% if url contains "/about" %}{% assign nav_section = "about" %}
+  {% elsif url contains "/blog" or page.layout == "post" %}{% assign nav_section = "blog" %}
+  {% elsif url contains "/showcase" or page.layout == "showcase-item" %}{% assign nav_section = "showcase" %}
+  {% endif %}
+  <div class="site">
+    <header class="site-head">
+      <a class="logo" href="/">
+        <span class="sq" aria-hidden="true"></span>
+        <span>navvix</span>
+      </a>
+      <div class="nav-right">
+        <nav>
+          <a href="/"          {% if nav_section == "home" %}class="active"{% endif %}>Home</a>
+          <a href="/about/"    {% if nav_section == "about" %}class="active"{% endif %}>About</a>
+          <a href="/blog/"     {% if nav_section == "blog" %}class="active"{% endif %}>Blog</a>
+          <a href="/showcase/" {% if nav_section == "showcase" %}class="active"{% endif %}>Showcase</a>
+        </nav>
+        <button type="button" class="theme-toggle" id="theme-toggle" aria-label="Toggle colour theme">[terminal]</button>
+      </div>
+    </header>
     <main>
       {{ content }}
     </main>
+    <footer class="site-foot">
+      <span>Navvix Limited &middot; Tim Norris-Wiles &middot; London</span>
+      <span>
+        <a href="https://www.linkedin.com/in/timothynorris/">linkedin</a>
+        &middot;
+        <a href="/llms.txt">llms.txt</a>
+      </span>
+    </footer>
   </div>
+  <script>
+    (function(){
+      var btn = document.getElementById('theme-toggle');
+      if (!btn) return;
+      function setLabel(t){ btn.textContent = (t === 'dark') ? '[paper]' : '[terminal]'; }
+      setLabel(document.documentElement.dataset.theme || 'light');
+      btn.addEventListener('click', function(){
+        var cur = document.documentElement.dataset.theme === 'dark' ? 'dark' : 'light';
+        var next = cur === 'dark' ? 'light' : 'dark';
+        document.documentElement.dataset.theme = next;
+        try { localStorage.setItem('navvix-theme', next); } catch(e){}
+        setLabel(next);
+      });
+    })();
+  </script>
   <script data-goatcounter="https://navvix.goatcounter.com/count"
           async src="//gc.zgo.at/count.js"></script>
 </body>
