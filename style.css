@@ -838,6 +838,24 @@ html[data-theme="dark"] .btn:hover{ background: var(--ink); color: var(--paper);
   border-top: 1px dashed var(--rule);
   margin: 2em 0;
 }
+.prose figure{
+  margin: 2em 0;
+}
+.prose figure img{
+  float: none;
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border: 1px dashed var(--rule);
+}
+.prose figure figcaption{
+  font-family: var(--mono);
+  font-size: 12px;
+  color: var(--ink-3);
+  margin-top: 10px;
+  line-height: 1.5;
+}
 .prose img{
   float: right;
   max-width: 45%;
